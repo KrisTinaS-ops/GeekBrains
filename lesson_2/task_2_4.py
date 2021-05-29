@@ -1,4 +1,4 @@
 my_list = ['инженер-конструктор Игорь', 'главный бухгалтер МАРИНА', 'токарь высшего разряда нИКОЛАЙ', 'директор аэлита']
 
-for position in my_list:
-    print('Привет', position.split()[-1].title() + '!')
+for my_list2 in my_list:
+    print('Привет', my_list2.split()[-1].title() + '!')
